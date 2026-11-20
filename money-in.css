@@ -1,0 +1,7 @@
+ .money-in-panel { margin-top: 18px; }
+.money-in-panel .panel-header { align-items: center; }
+.money-in-subtitle { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
+.money-in-total { display: grid; gap: 4px; text-align: right; color: var(--muted); font-size: 11px; }
+.money-in-total strong { color: var(--green); font-family: Manrope, sans-serif; font-size: 21px; }
+.empty-state, .empty-copy { color: var(--muted); font-size: 13px; }
+@media (max-width: 640px) { .money-in-panel .panel-header { align-items: flex-start; gap: 12px; } .money-in-total strong { font-size: 17px; } }
