@@ -58,7 +58,7 @@
       <form class="modal" id="transactionForm"><div class="modal-header"><div><p class="panel-kicker">New entry</p><h2 id="modalTitle">Add transaction</h2></div><button type="button" class="close-button" id="closeModal" aria-label="Close">×</button></div>
         <label><span>Description</span><input id="description" name="description" required maxlength="40" placeholder="e.g. Grocery shopping" /></label>
         <div class="form-grid"><label><span>Amount</span><input id="amount" name="amount" required type="number" min="0.01" step="0.01" placeholder="0.00" /></label><label><span>Type</span><select id="type" name="type"><option value="expense">Expense</option><option value="income">Income</option></select></label></div>
-        <div class="form-grid"><label><span>Category</span><select id="category" name="category"><option>Food</option><option>Housing</option><option>Transport</option><option>Shopping</option><option>Entertainment</option><option>Health</option><option>Salary</option><option>Other</option></select></label><label><span>Date</span><input id="date" name="date" required type="date" /></label></div>
+        <label><span>Date</span><input id="date" name="date" required type="date" /></label>
         <button class="primary-button modal-submit" type="submit">Save transaction</button>
       </form>
     </div>
